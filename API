@@ -1,0 +1,13 @@
+GeoAIP/
+│
+├── app/
+│   ├── main.py              # Main API entry point
+│   ├── schemas.py           # Pydantic models for data validation
+│   ├── crud.py              # CRUD operations for managing data
+│   ├── database.py          # Database connection and setup
+│   ├── models.py            # SQLAlchemy models if using a relational database
+│   └── utils.py             # Utility functions (e.g., for handling spatial queries)
+│
+├── data/                    # Directory to store Parquet files
+│
+└── requirements.txt         # List of required Python packages
