@@ -1,0 +1,6 @@
+my_project/
+│
+├── geo_aip.py            # Core logic module
+├── app.py                # Flask app
+├── cli.py                # Command-line interface
+└── requirements.txt      # Python dependencies
